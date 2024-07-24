@@ -1,4 +1,4 @@
-import { Hero, NavBar } from './Components'
+import { Contactus, Hero, NavBar } from './Components'
 import './App.css'
 
 function App() {
@@ -6,7 +6,9 @@ function App() {
   return (
     <>
   <NavBar/>
-  <Hero/>
+  <Contactus/>
+  {/* <Hero/> */}
+
     </>
     
   )
